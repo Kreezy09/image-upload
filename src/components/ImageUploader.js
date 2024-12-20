@@ -58,9 +58,9 @@ const ImageUploader = () => {
           <p>
             <strong>Class:</strong> {result.prediction_class}
           </p>
-          <p>
+          {/* <p>
             <strong>Index:</strong> {result.prediction_index}
-          </p>
+          </p> */}
           <p>
             <strong>Confidence:</strong> {result.confidence}
           </p>
