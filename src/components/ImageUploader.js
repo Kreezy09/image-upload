@@ -61,6 +61,9 @@ const ImageUploader = () => {
           <p>
             <strong>Index:</strong> {result.prediction_index}
           </p>
+          <p>
+            <strong>Confidence:</strong> {result.confidence}
+          </p>
         </div>
       )}
     </div>
